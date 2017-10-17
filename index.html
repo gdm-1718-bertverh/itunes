@@ -12,31 +12,35 @@
 <!-- font-awesome -->
 <link rel="stylesheet" href="styles/font-awesome-4.7.0/css/font-awesome.min.css">
 
+<!-- google-fonts -->
+<link href="https://fonts.googleapis.com/css?family=Rock+Salt" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed" rel="stylesheet">
+
+
 <!-- custom css -->
-<!--<link href="styles/custom.css" rel="stylesheet" type="text/css">-->
+<link href="styles/custom.css" rel="stylesheet" type="text/css">
 
 </head>
 
 <body>
  <div class="container">
-    <div class="row">
-        <div class="col-12">
+    <div class="row d-flex align-items-stretch">
+        <!-- album preview 1 -->
+        <div class="col-12 titel">
             <!-- head -->
             <h1>Wake Up and Go</h1> <!-- paginatitel-->
-       </div>
-    </div>
-
-
-
-
-    <div class="row">
-        <!-- album preview 1 -->
+        </div>
         <div class="col-12 col-md-4">
             <article>
-                <img class="img-fluid rounded-circle" src="styles/images/ertebrekers_otel.jpg">
-                <h2>Otel</h2>
-                <h3>Ertebrekers</h3>
-                <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                <div class="row align-items-center">
+                    <div class="col-3 col-md-12">
+                        <img class="img-fluid rounded-circle" src="styles/images/ertebrekers_otel.jpg">
+                    </div>
+                    <div class="col-9 col-md-12">
+                        <h2>Otel</h2>
+                        <h3>Ertebrekers</h3>
+                    </div> 
+                </div>
             </article>
         </div>
         <!-- einde lbum preview 1 -->
@@ -44,10 +48,15 @@
         <!-- album preview 2 -->
         <div class="col-12 col-md-4">
             <article>
-                <img class="img-fluid rounded-circle" src="styles/images/netsky_3.jpg">
-                <h2>3</h2>
-                <h3>Netsky</h3>
-                <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                <div class="row align-items-center">
+                    <div class="col-3 col-md-12">
+                        <img class="img-fluid rounded-circle" src="styles/images/netsky_3.jpg">
+                    </div>
+                    <div class="col-9 col-md-12">
+                        <h2>3</h2>
+                        <h3>Netsky</h3>
+                    </div>
+                </div>
             </article>
         </div>            
         <!-- einde lbum preview 2 -->
@@ -55,20 +64,28 @@
         <!-- album preview 3 -->
         <div class="col-12 col-md-4">
             <article>
-                <img class="img-fluid rounded-circle" src="styles/images/thechainsmokers_memories.jpg">
-                <h2>Memories... Do Not Open</h2>
-                <h3>The Chainsmokers</h3>
-                <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                <div class="row align-items-center">
+                    <div class="col-3 col-md-12">
+                        <img class="img-fluid rounded-circle" src="styles/images/thechainsmokers_memories.jpg">
+                    </div>
+                    <div class="col-9 col-md-12">
+                        <h2>Memories... Do Not Open</h2>
+                        <h3>The Chainsmokers</h3>
+                    </div>
+                </div>
             </article>
         </div>
         <!-- einde lbum preview 3 -->
-
-        <p>Bekijk volledige albums...</p>
-        <i class="fa fa-chevron-down" aria-hidden="true"></i>
+        <div class="col-12 d-flex flex-column align-items-center justify-content-end">
+                <p class="call-to-action">Bekijk volledige albums...</p>
+                <i class="fa fa-chevron-down" aria-hidden="true"></i>
+        </div>
     </div>
+</div>
 
 
-        
+
+<div class="container">        
     <div class="row">
         <!-- album 1 -->
         <div class="col-12">
@@ -77,29 +94,86 @@
                     <div class="col-6 col-md-4">
                         <img class="img-fluid rounded-circle" src="styles/images/ertebrekers_otel.jpg">
                     </div>
-                    <div class="col-6 col-md-8">
+                    <div class="col-6 col-md-8 d-flex align-items-start align-self-center align-self-md-start flex-column">
                         <h2>Otel</h2>
                         <h3>Ertebrekers</h3>
                     </div>
                     <div class="col-12 col-md-8 order-md-1">
-                        <ol>
-                            <li>De zji </li>
-                            <li>Duodgeweune</li>
-                            <li>Party Too Much</li>
-                            <li>Gie en ik</li>
-                            <li>Eva Mendes</li>
-                            <li>In theorie</li>
-                            <li>Ik loate los</li>
-                            <li>Gin goeste</li>
-                            <li>Vang et</li>
-                            <li>Verliefd</li>
-                            <li>Miss Amerika</li>
-                            <li>Woarom</li>
-                        </ol>
+                        <ol class="list-group">
+                            <li>
+                                <div class="d-flex w-100 justify-content-between">
+                                    <p class="mb-1">De zji</p>
+                                    <small>4:21</small>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="d-flex w-100 justify-content-between">
+                                    <p class="mb-1">Duodgeweune</p>
+                                    <small>4:50</small>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="d-flex w-100 justify-content-between">
+                                    <p class="mb-1">Party Too Much</p>
+                                    <small>3:46</small>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="d-flex w-100 justify-content-between">
+                                    <p class="mb-1">Gie en ik</p>
+                                    <small>2:35</small>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="d-flex w-100 justify-content-between">
+                                    <p class="mb-1">Eva Mendes</p>
+                                    <small>3:44</small>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="d-flex w-100 justify-content-between">
+                                    <p class="mb-1">In theorie</p>
+                                    <small>3:06</small>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="d-flex w-100 justify-content-between">
+                                    <p class="mb-1">Ik loate los</p>
+                                    <small>4:01</small>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="d-flex w-100 justify-content-between">
+                                    <p class="mb-1">Gin goeste</p>
+                                    <small>4:24</small>
+                                </div>
+                            </li>
+                            <li><div class="d-flex w-100 justify-content-between">
+                                    <p class="mb-1">Vang et</p>
+                                    <small>3:07</small>
+                                </div>
+                            </li>
+                            <li><div class="d-flex w-100 justify-content-between">
+                                    <p class="mb-1">Verliefd</p>
+                                    <small>4:08</small>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="d-flex w-100 justify-content-between">
+                                    <p class="mb-1">Miss Amerika</p>
+                                    <small>3:25</small>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="d-flex w-100 justify-content-between">
+                                    <p class="mb-1">Woarom</p>
+                                    <small>4:02</small>
+                                </div>
+                            </li>
                     </div>
                     <div class="col-12 col-md-4">
-                        <button type="button">Interesse? <i class="fa fa-chevron-right" aria-hidden="true"></i> </button>
-                        <button class="invisible" type="button"><i class="fa fa-chevron-left" aria-hidden="true"></i> Koop nu</button>
+                        <button class="btn-block d-flex justify-content-between align-items-center koop"type="button">Interesse? Koop nu <i class="fa fa-chevron-right" aria-hidden="true"></i></button>
+                        <!--<button class="invisible" type="button"><i class="fa fa-chevron-left" aria-hidden="true"></i> Koop nu</button>-->
                     </div>
                 </div>
             </article>
@@ -109,7 +183,7 @@
         <!-- album 2 -->
         <div class="col-12 col-lg-3">
             <article>                    
-                <img class="img-fluid rounded-circle" src="styles/images/ertebrekers_otel.jpg">
+                <img class="img-fluid rounded-circle" src="styles/images/netsky_3.jpg">
                 <h2>3</h2>
                 <h3>Netsky</h3>
                 <ol>
@@ -135,7 +209,7 @@
         <!-- album 3 -->
         <div class="col-12 col-lg-3">
             <article>                    
-                <img class="img-fluid rounded-circle" src="styles/images/ertebrekers_otel.jpg">
+                <img class="img-fluid rounded-circle" src="styles/images/thechainsmokers_memories.jpg">
                 <h2>Memories... Do Not Open</h2>
                 <h3>The Chainsmokers</h3>
                 <ol>

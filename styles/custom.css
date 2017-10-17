@@ -5,19 +5,64 @@
 
 /* ==============================================
     GLOBAL STYLES
-    ============================================== */
-    .row>div{
-        display: flex;
-    }   
-    article{
-        background-color: lightblue;
-        padding: 15px;
+    ============================================== */ 
+    h1, h2{ 
+        font-family: 'Rock Salt', cursive;
+        line-height: 160%;
     }
 
-    .row{
-        margin-bottom: 15px;
-    }  
+    h3, p{ 
+        font-family: 'Saira Extra Condensed', sans-serif;
+    }
 
+    p{
+        font-size: 20px;
+        line-height: 160%; 
+    }
+
+    .container{
+        min-height: 100vh;
+    }
+
+/* Home */
+    .titel{
+        margin: 50px 0;
+    }
+
+    .call-to-action{
+        margin-bottom: 0;
+    }
+/* einde home */
+
+    article{
+        margin-bottom: 30px;    
+    }
+
+    .rounded-circle{
+        margin-bottom: 15px;
+        border: 1px solid rgba(128, 128, 128, 50);
+        }
+
+    .list-group{
+        margin-left:30px; 
+    }
+
+    .list-group li{
+        border-bottom: 2px solid rgba(128, 128, 128, 50); 
+    }
+
+    .list-group li:last-of-type{
+        border-bottom: none; 
+    }
+
+    button{
+        margin: 0;
+        color: rgba(255, 255, 255, 100);
+        border: none;
+        background-color: red;
+        min-height: 50px;
+    }
+               
 /* MEDIA QUERIES
 *********************************************/
 
@@ -28,21 +73,31 @@
 / No media query since this is the default in Bootstrap*/
 
 
+
+
 /* Small devices (landscape phones, 576px and up)*/
 
-@media (min-width: 576px) {}
+@media (min-width: 576px) {
+
+}
 
 
 /* Medium devices (tablets, 768px and up)*/
 
-@media (min-width: 768px) {}
+@media (min-width: 768px) {
+
+}
 
 
 /* Large devices (desktops, 992px and up)*/
 
-@media (min-width: 992px) {}
+@media (min-width: 992px) {
+
+}
 
 
 /* Extra large devices (large desktops, 1200px and up)*/
 
-@media (min-width: 1200px) {}
+@media (min-width: 1200px) {
+
+}
