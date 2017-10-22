@@ -6,6 +6,10 @@
 /* ==============================================
     GLOBAL STYLES
     ============================================== */ 
+    body{
+        background: linear-gradient(rgba(255, 255, 255, 1), rgba(200, 200, 200, 1));
+    }
+
     h1, h2{ 
         font-family: 'Rock Salt', cursive;
         line-height: 160%;
